@@ -14,10 +14,10 @@ public class D extends A{
         this.method();
     }
 
-    // method
-    public void method2(){
-        A a = new A(); // 직접 객체 생성해서 사용하는 것 불가능
-        a.field = "value";
-        a.method();
-    }
+//    // method
+//    public void method2(){
+//        A a = new A(); // 직접 객체 생성해서 사용하는 것 불가능
+//        a.field = "value";
+//        a.method();
+//    }
 }

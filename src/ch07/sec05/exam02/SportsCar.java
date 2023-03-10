@@ -7,11 +7,11 @@ public class SportsCar extends Car {
     }
 
     // Not Override
-    @Override
-    public void stop(){
-        System.out.println("STOP the sports care"); // final로 인한 상속 불가
-        speed = 0;
-    }
+//    @Override
+//    public void stop(){
+//        System.out.println("STOP the sports care"); // final로 인한 상속 불가
+//        speed = 0;
+//    }
 
 
 
