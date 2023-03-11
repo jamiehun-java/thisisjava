@@ -22,4 +22,9 @@ public interface RemoteControl{
             System.out.println("무음 해제합니다.");
         }
     }
+
+    /** 정적 메서드 */
+    static void changeBattery(){
+        System.out.println("change the remote control battery");
+    }
 }

@@ -25,5 +25,8 @@ public class RemoteControlExample {
         /** 상수 필드 */
         System.out.println(RemoteControl.MAX_VOLUME);
         System.out.println(RemoteControl.MIN_VOLUME);
+
+        /** 정적 메서드 호출 */
+        RemoteControl.changeBattery();
     }
 }
